@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTML Hyperlinks Demonstration</h1>
+    <p>Hyprelinks in HTML are created using the <small>&lt;a&gt;</small> tag with the <small>href</small> attribute to specify the link destination. The <small>target</small> attribute determines how the link opened.</p>
+    <h1>Basic Hyperlink</h1>
+    <p>Visit the <a href="https://www.google.co.in/">Google</a> website. (Opens in a same tab)</p>
+    <h1>Open Link in a New Tab</h1>
+    <p>Visit the <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a> website. (Opens in a new tab)</p>
+    <h1>Open Link in a Parent Frame</h1>
+    <p>If this page is inside a frame, Visit <a href="https://en.wikipedia.org/w/index.php?title=Case_study&action=history" target="_parent">Example</a> in the parent frame</p>
+    <h1>Open Link in a Full Window</h1>
+    <p>Visit <a href="https://www.bbc.com/" target="_top">BBC News</a> to load in the full browser window.</p>
+</html>
