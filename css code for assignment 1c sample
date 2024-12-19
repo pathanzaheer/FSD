@@ -1,0 +1,32 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+#small-heading{
+    position:relative;
+    right: 150px;
+}
+h1{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+a{
+    text-decoration: none;
+    margin: 80px;
+}
+.profiles{
+    text-align: center;
+    margin-top: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.image1{
+    position: relative;
+    right: 10px;
+}
