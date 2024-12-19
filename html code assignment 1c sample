@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="details">
+        <p id="date">12/15/24 5:04 PM</p>
+        <p id="small-heading">Images and Links</p>
+    </div>
+    <h1>Profile Images</h1>
+    <div class="images">
+        <div class="image1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzBE_P3rPclK8gJnC-y1Mq7kNOvyL8yUHlg&s" height="150px" alt="my-profile">
+        </div>
+        <div class="image2">
+            <img src="https://pics.craiyon.com/2023-10-25/b65f72d6d11a48c1bc560059cc36e31f.webp" height="150px" alt="Friend's-profile">
+        </div>
+    </div>
+    <div class="profiles">
+        <a href="#">My Profile</a>
+        <a href="#">Friend's Profile</a>
+    </div>
+</body>
+</html>
