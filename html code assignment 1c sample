@@ -14,15 +14,15 @@
     <h1>Profile Images</h1>
     <div class="images">
         <div class="image1">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzBE_P3rPclK8gJnC-y1Mq7kNOvyL8yUHlg&s" height="150px" alt="my-profile">
+            <a href="https://www.google.co.in/" target="_blank"><img src="https://pics.craiyon.com/2023-10-25/b65f72d6d11a48c1bc560059cc36e31f.webp" height="150px" alt="my-profile"></a>
         </div>
         <div class="image2">
-            <img src="https://pics.craiyon.com/2023-10-25/b65f72d6d11a48c1bc560059cc36e31f.webp" height="150px" alt="Friend's-profile">
+            <a href="http://www.bing.com/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzBE_P3rPclK8gJnC-y1Mq7kNOvyL8yUHlg&s" height="150px" alt="Friend's-profile"></a>
         </div>
     </div>
     <div class="profiles">
-        <a href="#">My Profile</a>
-        <a href="#">Friend's Profile</a>
+        <a href="https://www.google.co.in/" target="_blank">My Profile</a>
+        <a href="http://www.bing.com/" target="_blank">Friend's Profile</a>
     </div>
 </body>
 </html>
