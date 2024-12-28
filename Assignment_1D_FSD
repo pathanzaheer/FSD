@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>
+        .details{
+    display: flex;
+    justify-content: space-between;
+}
+#small-heading{
+    position:relative;
+    right: 150px;
+}
+h1{
+    text-align: center;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-areas: 
+    "a a a a"
+    "b ";
+}
+.image{
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 4px;
+}
+
+     </style>
+</head>
+<body>
+    <div class="details">
+        <p id="date">12/15/24 5:04 PM</p>
+        <p id="small-heading">Images and Links</p>
+    </div>
+    <h1>Thumbnail Image Gallery</h1>
+    <div class="images">
+        <div class="image1 image">
+            <img src="https://static.vecteezy.com/system/resources/previews/036/226/872/non_2x/ai-generated-nature-landscapes-background-free-photo.jpg" alt="image1" width="200px" height="133px">
+        </div>
+        <div class="image2 image">
+            <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=" alt="iamge2" width="200px" >
+        </div>
+        <div class="image3 image"><img src="image.jpg" alt="Image 3 Thumbnail"></div>
+        <div class="image4 image"><img src="" alt="Image 4 Thumbnail"></div>
+        <div class="image5 image">
+            <img src="" alt="image 5 Thumbnail">
+        </div>
+    </div>
+</body>
+</html>
