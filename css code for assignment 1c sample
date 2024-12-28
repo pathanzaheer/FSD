@@ -24,9 +24,12 @@ a{
 .images{
     display: flex;
     justify-content: center;
-    gap: 70px;
 }
 .image1{
     position: relative;
-    right: 10px;
+    left: 30px;
+}
+.image2{
+    position: relative;
+    right: 40px;
 }
