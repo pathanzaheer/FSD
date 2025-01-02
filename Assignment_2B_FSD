@@ -25,7 +25,7 @@
             <th>2:00 PM - 3:00 PM</th>
         </tr>
         <tr>
-            <td>Monday</td>
+            <td><b>Monday</b></td>
             <td>P&S</td>
             <td rowspan="2">Physics</td>
             <td>SE</td>
@@ -33,19 +33,19 @@
             <td>ADSAA</td>
         </tr>
         <tr>
-            <td>Tuesday</td>
+            <td><b>Tuesday</b></td>
             <td>DT</td>
             <td>MEFA</td>
             <td>Computer Science</td>
         </tr>
         <tr>
-            <td>Wednesday</td>
+            <td><b>Wednesday</b></td>
             <td colspan="2">FSD Lab</td>
             <td>SE</td>
             <td>DT</td>
         </tr>
         <tr>
-            <td>Thurday</td>
+            <td><b>Thurday</b></td>
             <td>OS</td>
             <td>CRT</td>
             <td rowspan="2">SE</td>
@@ -54,7 +54,7 @@
             <td>DT</td>
         </tr>
         <tr>
-            <td>Friday</td>
+            <td><b>Friday</b></td>
             <td>Computer Science</td>
             <td>OS Lab</td>
             <td>ADSAA</td>
