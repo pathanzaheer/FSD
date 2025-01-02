@@ -10,9 +10,13 @@
             border-collapse: collapse;
             text-align: center;
             padding: 10px 20px;
+            margin: auto;
         }
         h2{
             text-align: center;
+        }
+        h1{
+            margin: 30px 310px;
         }
     </style>
 </head>
