@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_6A</title>
+    <script src="script.js"></script>
+    <style>
+        body{
+            margin-left: 50px;
+            font-family: sans-serif;
+            line-height: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            background-color: #007BFF;
+            color: white;
+            font-weight: bold;
+            padding: 15px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Embedding Example</h1>
+    <p id="para-1">This text will change using internal JavaScript</p>
+    <button onclick="changeTextP1()">Change Text (Internal JS)</button>
+    <p id="para-2">This text will change using external JavaScript</p>
+    <button onclick="changeTextP2()">Change Text (External JS)</button>
+</body>
+<script>
+    function changeTextP1(){
+        document.getElementById("para-1").innerHTML="This text is changed using internal javascript"
+    }
+</script>
+</html>
