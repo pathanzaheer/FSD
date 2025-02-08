@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_5D</title>
+    <style>
+        body{
+            margin-left: 50px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            border: 4px solid #007bff;
+            background-color: rgba(250, 235, 215, 0.555);
+            width: 250px;
+            padding: 20px;
+            margin: 20px;
+        }
+        .box>.content{
+            background-color: white;
+            text-align: center;
+            padding: 2px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Box Model Demostration</h1>
+    <div class="container">
+        <div class="box">
+            <p>Margin</p>
+            <p>Border</p>
+            <div class="content">
+                <p>This is the content inside the box!</p>
+            </div>
+            <p>Padding</p>
+        </div>
+    </div>
+    <p>This example demostrates the CSS box model:</p>
+    <ul>
+        <li><b>Content:</b> The white area in the center where the text is displayed.</li>
+        <li><b>Padding:</b> The space between the content and the border (light grey).</li>
+        <li><b>Border:</b> The solid blue line surrounding the box.</li>
+        <li><b>Margin: </b>The space outside the border (moves the box away from other elements).</li>
+    </ul>
+</body>
+</html>
