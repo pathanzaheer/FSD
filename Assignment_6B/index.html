@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_6A</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        .btns{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+        .output{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px auto 0 auto;
+            width: 90%;
+            height: 50px;
+            border: 1px solid lightgrey;
+            background-color: aliceblue;
+            
+        }
+        button{
+            color: white;
+            font-weight: bold;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Output Methods</h1>
+    <div class="btns">
+        <button onclick="function1()">Show Alert</button>
+        <button onclick="function2()">Write to Document</button>
+        <button onclick="function3()">Log to Console</button>
+        <button onclick="function4()">Update Inner HTML</button>
+    </div>
+    <div class="output">
+        <p id="op">Output will appear here</p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
